@@ -1,16 +1,13 @@
-body {
-  font-family: "Open Sans";
+* {
+  box-sizing: border-box;
 }
-
-nav > a {
-  text-decoration: none;
-  font-weight: bold;
-  color: #2196F3;
-  font-size: 1.25em;
+body {
   font-family: "Anonymous Pro";
 }
 
-
+p {
+  line-height: 1.5em;
+}
 
 header {
   display: flex;
@@ -27,13 +24,38 @@ header > h1 {
 }
 
 .bar {
-  border-top: 1.5em solid black;
+  height: 1.5em;
+  background: black;
   width: 50%;
 }
 
-nav {
+.bar-text {
+  width: 50%;
   padding-top: .25em;
   padding-right: .5em;
   display: flex;
+  justify-content: flex-end;
+
+}
+
+.nav {
   justify-content: space-between;
+  /*border-radius: 5px;*/
+}
+
+nav > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2196F3;
+  font-size: 1.25em;
+  font-family: "Anonymous Pro";
+}
+
+
+.headline {
+  font-size: 5em;
+  /*font-family: Bungee;*/
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
