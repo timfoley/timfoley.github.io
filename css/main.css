@@ -27,18 +27,18 @@ header > h1 {
 .bar {
   height: 1.5em;
   background: black;
-  width: 40%;
+  width: 300px;
   border-radius: 0 5px 5px 0;
 }
 
 .bar-text {
-  width: 40%;
+  width: 300px;
   padding-top: .25em;
   padding-right: .5em;
   display: flex;
   justify-content: flex-end;
   font-weight: bold;
-  color: #2196F3;
+  color: #FC5185;
   font-size: 1.75rem;
 }
 
@@ -52,6 +52,8 @@ header > h1 {
   justify-content: space-between;
   margin-left: auto;
   width: 70%;
+  text-transform: uppercase;
+  color: #2196F3
 }
 
 nav > a {
