@@ -52,7 +52,6 @@ header > h1 {
   justify-content: space-between;
   margin-left: auto;
   width: 70%;
-  text-transform: uppercase;
   color: #2196F3
 }
 
@@ -68,7 +67,7 @@ nav > a {
   /*font-family: Bungee;*/
   font-weight: bold;
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: .8em;
   padding-left: 3rem;
 }
 
@@ -93,6 +92,6 @@ article p {
 .cards img {
   height: 250px;
   width: auto;
-  border: 3px solid black;
+  border: 5px solid black;
   border-radius: 5px;
 }
