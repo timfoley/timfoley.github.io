@@ -22,6 +22,15 @@ section {
   max-height: 100vh;
 }
 
+h2, h3, h4 {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: .5em;
+}
+
+
 .name {
   font-family: 'Roboto Slab', serif;
   font-size: 6em;
@@ -85,4 +94,24 @@ section > h2 {
 
 .projects > h2 {
   color: black;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.description {
+  flex: 1 1 50vw;
+  margin-right: 20px;
+}
+
+.screenshot {
+  flex: 0 0 300px;
+  width: 350px;
+  height: auto;
 }

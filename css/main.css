@@ -10,6 +10,10 @@ p {
   line-height: 1.75em;
 }
 
+ul {
+  margin-top: 0;
+}
+
 header {
   display: flex;
   flex-direction: column;
